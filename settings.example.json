@@ -1,0 +1,20 @@
+{
+  "env": {
+    "CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS": "100000"
+  },
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "python3 ~/.claude/statusline.py",
+    "refreshInterval": 60
+  },
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "high",
+      "autoCompactWindow": 300000
+    },
+    "claude-sonnet-5-5": {
+      "autoCompactWindow": 300000
+    }
+  }
+}
